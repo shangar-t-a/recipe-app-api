@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "recipe-app"
+version = "0.1.0"
+description = "Django Tutorial (Recipe App)"
+authors = ["Keys (Shangar) <shangar202000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "~3.2.4"
+djangorestframework = "~3.12.4"
+psycopg2 = "~2.8.6"
+drf-spectacular = "~0.15.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
