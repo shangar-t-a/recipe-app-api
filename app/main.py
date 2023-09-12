@@ -16,7 +16,7 @@ def main() -> None:
     os.environ["DB_USER"] = "shangar"
     os.environ["DB_PASS"] = "temp1234"
 
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app.settings')
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "app.settings")
 
     try:
         from django.core.management import execute_from_command_line
