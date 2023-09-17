@@ -11,6 +11,7 @@ django = "~3.2.4"
 djangorestframework = "~3.12.4"
 psycopg2 = "~2.8.6"
 drf-spectacular = "~0.15.1"
+pillow = "~8.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
