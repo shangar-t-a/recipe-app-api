@@ -1,5 +1,11 @@
 # Run Docker
 
+## Build Docker Image
+
+```
+docker-compose build
+```
+
 ## Start and Stop Docker Server
 
 ```
